@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SyncMySqltoSQLite</string>
+    <string name="title_activity_activity_main">IT Eagle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_user_entry">view_user_entry</string>
+    <string name="selectAssetType">Select Asset Type</string>
+    <string name="AssetType">Asset Type</string>
+    <string name="selectAssetBrand">Select Brand</string>
+    <string name="AssetBrand">Brand</string>
+    <string name="selectAssetModel">Select Model</string>
+    <string name="AssetModel">Model</string>
+    <string name="assetTypeSpinner">Select Asset Type</string>
+    <string name="simple_scanner_activity">ZBar Scanner - Simple Activity</string>
+    <string name="addBarcodeToText">Add BarCode To Text Field</string>
+    <string name="button_text">Find Asset</string>
+    <string name="button_addAsset">Add Asset</string>
+    <string name="button_text2">Transfer</string>
+    <string name="button_text3">Syncronize</string>
+
+</resources>

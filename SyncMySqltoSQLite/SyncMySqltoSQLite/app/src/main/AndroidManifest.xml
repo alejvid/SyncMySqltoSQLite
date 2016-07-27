@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alejandrovidales.syncmysqltosqlite" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA"    />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:icon="@mipmap/iteagle_logo"
+        android:label="ITE Inventory" >
+        //android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity_main"
+            android:label="@string/title_activity_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newAsset"
+            android:label="Add Assets" >
+        </activity>
+        <activity
+            android:name=".transferasset"
+            android:label="Transfer Asset" >
+        </activity>
+        <activity
+            android:name=".syncronizeAssets"
+            android:label="Syncronize Assets" >
+        </activity>
+        <activity
+            android:name=".viewAssets"
+            android:label="Find Assets" >
+        </activity>
+        <activity
+            android:name=".SimpleScannerActivity"
+            android:label="Simple Scanner Activity" >
+        </activity>
+        <!-- Register MyService -->
+        <service
+            android:name=".MyService"
+            android:enabled="true" />
+        <!--  Register BroadCase Receiver -->
+        <receiver
+            android:name=".SampleBC"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

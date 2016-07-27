@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.alejandrovidales.syncmysqltosqlite.activity_main">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/imageButton"
+            android:drawableTop="@drawable/ic_magnifier"
+            android:text="@string/button_text"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_above="@+id/imageButton2"
+            android:layout_toRightOf="@+id/imageAddAsset"
+            android:layout_toEndOf="@+id/imageAddAsset" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/imageAddAsset"
+            android:drawableTop="@drawable/ic_plus"
+            android:text="@string/button_addAsset"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/imageButton2"
+            android:drawableTop="@drawable/ic_transfer"
+            android:text="@string/button_text2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageButton3"
+            android:layout_toStartOf="@+id/imageButton3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:id="@+id/imageButton3"
+            android:drawableTop="@drawable/ic_sync"
+            android:text="@string/button_text3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_toRightOf="@+id/imageAddAsset"
+            android:layout_toEndOf="@+id/imageAddAsset" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
