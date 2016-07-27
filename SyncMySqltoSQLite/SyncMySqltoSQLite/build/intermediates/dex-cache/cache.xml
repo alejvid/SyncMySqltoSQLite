@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.7.2/jars/libs/zbar.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/zbar-2b46b5e2440d6b6d3d1230409870c8d679cbe8ba.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.4/3bae85a076241828810bf8fbcc12e5891d5fc34c/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4-22ce6a29b9d6b6b623bf9cb0cefac60d3d017a06.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/gson-2.2.4-2d83db8554a106d8c498e3e013ef90fbbe17c720.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-91197a72631e053b4fe29f16e41de902269b0328.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/classes-dc1638d097fb3f430e162dcdbc7e9987b8130efc.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.7.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7c025bb660cbd12955a3cac9d215f20a4819a82f">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/classes-49aeaf0d537ee19442e5b442cc97d68257d6d106.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-59d2c3abf72bc54f4e7145055741ba5a8841389c.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.7.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ccebde0751b6bb647deceb712da1190ccacf16c9">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/classes-0e7d3244f3ed5fdd25a93b4b4e7062280dc8d2c5.jar" />
+    </item>
+    <item
+        jar="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/alejandrovidales/AndroidStudioProjects/SyncMySqltoSQLite/app/build/intermediates/pre-dexed/debug/classes-c7f3c06229a9358af748a3bad7fccdacc09531b6.jar" />
+    </item>
+
+</items>
